@@ -20,7 +20,7 @@
     @include('layouts._header')
 
     <div class="container">
-
+        @include('common.message')
         @yield('content')
 
     </div>
